@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9929b9d-9a20-49a1-bf1a-020d7c34cf87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txt2csv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keras_ssd7.py" afterPath="$PROJECT_DIR$/keras_ssd7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keras_ssd_loss.py" afterPath="$PROJECT_DIR$/keras_ssd_loss.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssd_batch_generator.py" afterPath="$PROJECT_DIR$/ssd_batch_generator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssd_box_encode_decode_utils.py" afterPath="$PROJECT_DIR$/ssd_box_encode_decode_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_ssd7.ipynb" afterPath="$PROJECT_DIR$/train_ssd7.ipynb" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ssd_keras$txt2csv.coverage" NAME="txt2csv Coverage Results" MODIFIED="1502419893252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ssd_keras$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1501053146088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ssd_batch_generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssd_batch_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16620">
+              <caret line="758" column="49" lean-forward="false" selection-start-line="758" selection-start-column="41" selection-end-line="758" selection-end-column="49" />
+              <folding>
+                <element signature="e#855#873#0" expanded="true" />
+                <element signature="e#1300#2168#0" expanded="false" />
+                <element signature="e#2218#2396#0" expanded="false" />
+                <element signature="e#2439#2896#0" expanded="false" />
+                <element signature="e#2944#3514#0" expanded="false" />
+                <element signature="e#3545#3879#0" expanded="false" />
+                <element signature="e#4546#7003#0" expanded="false" />
+                <element signature="e#12600#12944#0" expanded="false" />
+                <element signature="e#13070#17929#0" expanded="false" />
+                <element signature="e#49613#49746#0" expanded="false" />
+                <element signature="e#49785#49918#0" expanded="false" />
+                <element signature="e#50501#61565#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keras_ssd_loss.py" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_ssd_loss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3840">
+              <caret line="147" column="92" lean-forward="false" selection-start-line="147" selection-start-column="92" selection-end-line="147" selection-end-column="92" />
+              <folding>
+                <element signature="e#3603#4543#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keras_ssd7.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keras_ssd7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="207" column="46" lean-forward="false" selection-start-line="207" selection-start-column="46" selection-end-line="207" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keras_layer_AnchorBoxes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_layer_AnchorBoxes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4020">
+              <caret line="139" column="28" lean-forward="false" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keras_layer_L2Normalization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_layer_L2Normalization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ssd_box_encode_decode_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssd_box_encode_decode_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4260">
+              <caret line="425" column="29" lean-forward="false" selection-start-line="425" selection-start-column="29" selection-end-line="425" selection-end-column="29" />
+              <folding>
+                <element signature="e#969#3900#0" expanded="false" />
+                <element signature="e#3983#6099#0" expanded="false" />
+                <element signature="e#6183#7336#0" expanded="false" />
+                <element signature="e#7411#10973#0" expanded="false" />
+                <element signature="e#11046#12267#0" expanded="false" />
+                <element signature="e#12341#13692#0" expanded="false" />
+                <element signature="e#13949#22889#0" expanded="false" />
+                <element signature="e#34466#34970#1" expanded="false" />
+                <element signature="e#35602#43546#0" expanded="false" />
+                <element signature="e#43861#50682#0" expanded="false" />
+                <element signature="e#50763#57537#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="txt2csv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/txt2csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>y_true</find>
+      <find>limit_boxes</find>
+      <find>decode</find>
+      <find>iou_threshold</find>
+      <find>current</find>
+      <find>SSDBoxEncoder</find>
+      <find>ssd_box_encoder</find>
+      <find>y_pred</find>
+      <find>AnchorBoxes</find>
+      <find>generate_anchor_boxes</find>
+      <find>y_encoded</find>
+      <find>batch_y</find>
+      <find>e_csv</find>
+      <find>true_box</find>
+      <find>y_encode_template</find>
+      <find>genera</find>
+      <find>decode_y</find>
+      <find>n_classes</find>
+      <find>decode_y2</find>
+      <find>pos_class_loss</find>
+      <find>predictor_sizes</find>
+      <find>print</find>
+      <find>angle_pos_loss</find>
+      <find>g</find>
+      <find>gr</find>
+      <find>gra</find>
+      <find>grads</find>
+      <find>grad</find>
+      <find>encode_y</find>
+      <find>compute_loss</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/keras_ssd_loss.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/train_ssd7.ipynb" />
+        <option value="$PROJECT_DIR$/ssd_batch_generator.py" />
+        <option value="$PROJECT_DIR$/keras_ssd7.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/keras_ssd_loss.py" />
+        <option value="$PROJECT_DIR$/txt2csv.py" />
+        <option value="$PROJECT_DIR$/.ipynb_checkpoints/train_ssd7-checkpoint.ipynb" />
+        <option value="$PROJECT_DIR$/ssd_box_encode_decode_utils.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssd_keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssd_keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssd_keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssd_keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".ipynb_checkpoints" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.txt2csv">
+    <configuration default="false" name="txt2csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ssd_keras" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/txt2csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ssd_keras" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ssd_keras" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ssd_keras" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ssd_keras" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ssd_keras" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="ssd_keras" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ssd_keras" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ssd_keras" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.txt2csv" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.txt2csv" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9929b9d-9a20-49a1-bf1a-020d7c34cf87" name="Default" comment="" />
+      <created>1499930496738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499930496738</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_py - 2017.07.24 at 16h 52m 01s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.24 at 16h 52m 20s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.26 at 14h 43m 07s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.26 at 14h 44m 15s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.26 at 14h 45m 41s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.26 at 15h 01m 18s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.26 at 15h 04m 56s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.26 at 15h 07m 34s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.26 at 15h 08m 30s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.26 at 15h 12m 33s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35836178" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23461092" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" x="438" y="337" width="780" height="537" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22835498" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/layers/merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7620">
+          <caret line="255" column="8" lean-forward="false" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_layer_AnchorBoxes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="93" column="60" lean-forward="false" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/backend/tensorflow_backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55260">
+          <caret line="1858" column="4" lean-forward="false" selection-start-line="1858" selection-start-column="4" selection-end-line="1858" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12990">
+          <caret line="454" column="21" lean-forward="false" selection-start-line="454" selection-start-column="21" selection-end-line="454" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_ssd7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9210">
+          <caret line="307" column="59" lean-forward="false" selection-start-line="307" selection-start-column="59" selection-end-line="307" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssd_batch_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#855#873#0" expanded="true" />
+            <element signature="e#1300#2168#0" expanded="false" />
+            <element signature="e#2218#2396#0" expanded="false" />
+            <element signature="e#2439#2896#0" expanded="false" />
+            <element signature="e#2944#3514#0" expanded="false" />
+            <element signature="e#3545#3879#0" expanded="false" />
+            <element signature="e#4546#7003#0" expanded="false" />
+            <element signature="e#12600#12944#0" expanded="false" />
+            <element signature="e#13070#17929#0" expanded="false" />
+            <element signature="e#49613#49746#0" expanded="false" />
+            <element signature="e#49785#49918#0" expanded="false" />
+            <element signature="e#50501#61565#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_ssd7.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/layers/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9390">
+          <caret line="333" column="13" lean-forward="false" selection-start-line="333" selection-start-column="8" selection-end-line="333" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19890">
+          <caret line="672" column="6" lean-forward="false" selection-start-line="672" selection-start-column="6" selection-end-line="672" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/layers/merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7620">
+          <caret line="255" column="8" lean-forward="false" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_layer_AnchorBoxes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="93" column="60" lean-forward="false" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/backend/tensorflow_backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55260">
+          <caret line="1858" column="4" lean-forward="false" selection-start-line="1858" selection-start-column="4" selection-end-line="1858" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12990">
+          <caret line="454" column="21" lean-forward="true" selection-start-line="454" selection-start-column="21" selection-end-line="454" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_ssd7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9090">
+          <caret line="303" column="49" lean-forward="false" selection-start-line="303" selection-start-column="49" selection-end-line="303" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssd_batch_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#855#873#0" expanded="true" />
+            <element signature="e#1300#2168#0" expanded="false" />
+            <element signature="e#2218#2396#0" expanded="false" />
+            <element signature="e#2439#2896#0" expanded="false" />
+            <element signature="e#2944#3514#0" expanded="false" />
+            <element signature="e#3545#3879#0" expanded="false" />
+            <element signature="e#4546#7003#0" expanded="false" />
+            <element signature="e#12600#12944#0" expanded="false" />
+            <element signature="e#13070#17929#0" expanded="false" />
+            <element signature="e#49613#49746#0" expanded="false" />
+            <element signature="e#49785#49918#0" expanded="false" />
+            <element signature="e#50501#61565#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_ssd7.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_ssd7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5460">
+          <caret line="182" column="58" lean-forward="true" selection-start-line="182" selection-start-column="58" selection-end-line="182" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssd_batch_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#855#873#0" expanded="true" />
+            <element signature="e#1300#2168#0" expanded="false" />
+            <element signature="e#2218#2396#0" expanded="false" />
+            <element signature="e#2439#2896#0" expanded="false" />
+            <element signature="e#2944#3514#0" expanded="false" />
+            <element signature="e#3545#3879#0" expanded="false" />
+            <element signature="e#4546#7003#0" expanded="false" />
+            <element signature="e#12600#12944#0" expanded="false" />
+            <element signature="e#13070#17929#0" expanded="false" />
+            <element signature="e#49613#49746#0" expanded="false" />
+            <element signature="e#49785#49918#0" expanded="false" />
+            <element signature="e#50501#61565#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_ssd7.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_ssd7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4950">
+          <caret line="165" column="34" lean-forward="true" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssd_batch_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#855#873#0" expanded="true" />
+            <element signature="e#1300#2168#0" expanded="false" />
+            <element signature="e#2218#2396#0" expanded="false" />
+            <element signature="e#2439#2896#0" expanded="false" />
+            <element signature="e#2944#3514#0" expanded="false" />
+            <element signature="e#3545#3879#0" expanded="false" />
+            <element signature="e#4546#7003#0" expanded="false" />
+            <element signature="e#12600#12944#0" expanded="false" />
+            <element signature="e#13070#17929#0" expanded="false" />
+            <element signature="e#49613#49746#0" expanded="false" />
+            <element signature="e#49785#49918#0" expanded="false" />
+            <element signature="e#50501#61565#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_ssd7.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_ssd7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/layers/merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7620">
+          <caret line="255" column="8" lean-forward="false" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/ia49r9m1.bmp" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/zjqhplo9.bmp" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/lx581wse.bmp" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/8nvcxc2j.bmp" />
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/layers/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9390">
+          <caret line="333" column="13" lean-forward="false" selection-start-line="333" selection-start-column="8" selection-end-line="333" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="1334" column="21" lean-forward="true" selection-start-line="1334" selection-start-column="21" selection-end-line="1334" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face/Person01/person01146+0+0.jpg" />
+    <entry file="file://$PROJECT_DIR$/face/Front/personne01146+0+0.jpg" />
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="454" column="21" lean-forward="false" selection-start-line="454" selection-start-column="21" selection-end-line="454" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/backend/tensorflow_backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="1858" column="4" lean-forward="false" selection-start-line="1858" selection-start-column="4" selection-end-line="1858" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_ssd7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11940" column="336" lean-forward="false" selection-start-line="11940" selection-start-column="336" selection-end-line="11940" selection-end-column="336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/engine/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42120">
+          <caret line="1423" column="6" lean-forward="false" selection-start-line="1423" selection-start-column="6" selection-end-line="1423" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda2/envs/tensorflow/Lib/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="660" column="21" lean-forward="true" selection-start-line="660" selection-start-column="21" selection-end-line="660" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_ssd7.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face/file/train_labels.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77400">
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face/file/val_labels.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_layer_AnchorBoxes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4020">
+          <caret line="139" column="28" lean-forward="false" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_layer_L2Normalization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/train_ssd7-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face/file/train_labels_new.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19440">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face/file/val_labels_new.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="180" column="53" lean-forward="true" selection-start-line="180" selection-start-column="53" selection-end-line="180" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssd_batch_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16620">
+          <caret line="758" column="49" lean-forward="false" selection-start-line="758" selection-start-column="41" selection-end-line="758" selection-end-column="49" />
+          <folding>
+            <element signature="e#855#873#0" expanded="true" />
+            <element signature="e#1300#2168#0" expanded="false" />
+            <element signature="e#2218#2396#0" expanded="false" />
+            <element signature="e#2439#2896#0" expanded="false" />
+            <element signature="e#2944#3514#0" expanded="false" />
+            <element signature="e#3545#3879#0" expanded="false" />
+            <element signature="e#4546#7003#0" expanded="false" />
+            <element signature="e#12600#12944#0" expanded="false" />
+            <element signature="e#13070#17929#0" expanded="false" />
+            <element signature="e#49613#49746#0" expanded="false" />
+            <element signature="e#49785#49918#0" expanded="false" />
+            <element signature="e#50501#61565#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt2csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_ssd_loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="147" column="92" lean-forward="false" selection-start-line="147" selection-start-column="92" selection-end-line="147" selection-end-column="92" />
+          <folding>
+            <element signature="e#3603#4543#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssd_box_encode_decode_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4260">
+          <caret line="425" column="29" lean-forward="false" selection-start-line="425" selection-start-column="29" selection-end-line="425" selection-end-column="29" />
+          <folding>
+            <element signature="e#969#3900#0" expanded="false" />
+            <element signature="e#3983#6099#0" expanded="false" />
+            <element signature="e#6183#7336#0" expanded="false" />
+            <element signature="e#7411#10973#0" expanded="false" />
+            <element signature="e#11046#12267#0" expanded="false" />
+            <element signature="e#12341#13692#0" expanded="false" />
+            <element signature="e#13949#22889#0" expanded="false" />
+            <element signature="e#34466#34970#1" expanded="false" />
+            <element signature="e#35602#43546#0" expanded="false" />
+            <element signature="e#43861#50682#0" expanded="false" />
+            <element signature="e#50763#57537#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_ssd7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="207" column="46" lean-forward="false" selection-start-line="207" selection-start-column="46" selection-end-line="207" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
